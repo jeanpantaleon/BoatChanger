@@ -1,0 +1,8 @@
+{
+	"Name": "BoatChanger",
+	"ModGUID": "DaSea.BoatChanger",
+	"Version": "1.0.0",
+	"ModAssembly": "BoatChanger.dll",
+	"MinWinchVersion": "0.2.3",
+	"Entrypoint": "BoatChanger.Loader/Initialize"
+}
