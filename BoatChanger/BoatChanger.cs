@@ -32,7 +32,7 @@ namespace BoatChanger
             Mathf.Min(GameManager.Instance.Player._allBoatModelProxies.Count, HullTier);
 
 
-            if (Input.GetKeyDown(KeyCode.PageUp) && HullTier < 4) // If the key pressed is PageUp (to increase hull tier)
+            if (Input.GetKeyDown(KeyCode.PageUp) && HullTier < 5) // If the key pressed is PageUp (to increase hull tier)
 			{
                 HullTier++;
 
