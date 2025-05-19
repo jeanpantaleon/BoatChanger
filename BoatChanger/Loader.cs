@@ -13,7 +13,6 @@ namespace BoatChanger
 			var gameObject = new GameObject(nameof(BoatChanger));
 			gameObject.AddComponent<BoatChanger>();
             GameObject.DontDestroyOnLoad(gameObject);
-			GameManager.Instance._prodGameConfigData.hourDurationInSeconds = 24;
             new Harmony("com.dredge.moredredge").PatchAll();
         }
 	}
